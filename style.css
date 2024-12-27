@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #001f3f;
+    color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #001f3f;
+    padding: 10px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .version-banner {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    color: black;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .final-message {
+    text-align: center;
+    background: #001f3f;
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    margin: 0 0 20px 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 2px solid #001f3f;
+    border-radius: 8px;
+    background: white;
+    color: #001f3f;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #001f3f;
+    color: white;
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
